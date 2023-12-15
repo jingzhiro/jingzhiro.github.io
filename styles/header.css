@@ -1,0 +1,52 @@
+.header {
+    height: 40px;
+    display: flex;
+    column-gap: 8px;
+    font-size: 15px;
+    padding-left: 18px;
+    align-items: center;
+    justify-content: left;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(90, 90, 90);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.header-buttons {
+    width: 55px;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.header-buttons:hover {
+    background-color: white;
+    color: rgb(90, 90, 90);
+    border-radius: 5px;
+}
+
+.header-buttons:active {
+    opacity: 0.8;
+}
+
+.header-icons {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    justify-content: right;
+}
+
+#github-icon {
+    top: 12px;
+    right: 40px;
+    position: absolute;
+}
+
+#linkedin-icon {
+    top: 12px;
+    right: 70px;
+    position: absolute;
+}
