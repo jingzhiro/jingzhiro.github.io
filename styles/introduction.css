@@ -8,6 +8,7 @@
 }
 
 .animated-text {
+    color: white;
     font-size: 3vw;
     letter-spacing: 8px;
     border-right: 5px solid;
