@@ -64,3 +64,13 @@
 #linkedin-icon {
     right: 104px;
 }
+
+@media (max-width: 750px) {
+    #github-icon {
+        opacity: 0;
+    }
+
+    #linkedin-icon {
+        opacity: 0;
+    }
+}

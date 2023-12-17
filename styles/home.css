@@ -1,6 +1,8 @@
 .animated-text-div {
-    display: inline-block;
-    padding-top: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 175px;
 }
 
 .animated-text {

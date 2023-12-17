@@ -1,18 +1,20 @@
-.about-me {
-    padding-top: 325px;
-    width: 520px;
-    line-height: 25px;
+#about-me-anchor {
+    background-color: rgb(16 16 16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#about-me-anchor {
-    scroll-margin-top: 0px;
-    background-color: rgb(16 16 16);
+.about-me {
+    max-width: 520px;
+    line-height: 25px;
 }
 
 .tech-stack {
     display: flex;
     justify-content: center;
     column-gap: 25px;
-    font-size: 30px;
-    margin-top: 70px;
+    font-size: 35px;
+    margin-top: 80px;
 }
