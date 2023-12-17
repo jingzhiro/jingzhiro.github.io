@@ -1,15 +1,11 @@
-.introduction {
-    display: flex;
-    justify-content: center;
-}
-
 .animated-text-div {
     display: inline-block;
+    padding-top: 275px;
 }
 
 .animated-text {
     color: white;
-    font-size: 3vw;
+    font-size: 50px;
     letter-spacing: 8px;
     border-right: 5px solid;
     width: 100%;
@@ -27,5 +23,6 @@
 }
 
 #home-anchor {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 80px;
 }
+
